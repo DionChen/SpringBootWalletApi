@@ -1,6 +1,6 @@
 package com.backend.wallet.constant;
 
-public enum ERole {
+public enum EUserRole {
     ROLE_USER,
 
     Role_ADMIN
