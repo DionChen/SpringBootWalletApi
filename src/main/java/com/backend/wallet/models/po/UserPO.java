@@ -4,19 +4,17 @@ import com.backend.wallet.constant.EUserRole;
 import com.backend.wallet.constant.EUserState;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.Date;
 
-@Entity
-@Table(name = "users")
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "users")
+@Entity
 public class UserPO implements Serializable {
 
     private static final long serialVersionUID = -686545107109106509L;
