@@ -28,6 +28,7 @@ public class UserPO implements Serializable {
     @Enumerated(EnumType.STRING)
     EUserState state;
 
+    @Column(unique = true)
     String username;
 
     String email;
