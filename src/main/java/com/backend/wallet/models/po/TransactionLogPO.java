@@ -12,7 +12,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name = "transactionLog")
+@Table(name = "wallet-transaction")
 @Entity
 public class TransactionLogPO {
 
